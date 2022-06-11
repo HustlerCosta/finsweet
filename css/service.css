@@ -9,35 +9,34 @@ body {
 }
 
 #first-service {
-    min-height: 100vh;
-    padding: 3rem 0 5rem;
-    width: 100%;
+    padding: 2rem 0;
 }
 
 header {
     display: flex;
     justify-content: center;
-    border: 1px solid white;
     margin-bottom: 3rem;
 }
 
 header .fin {
-    margin-right: 30rem;
+    /* margin-right: 30rem; */
+    width: 40%;
 }
 
 header .fin img {
-    width: 110%;
+    width: 30%;
 }
 
 header ul {
     display: flex;
     gap: 20px;
+    margin-top: 5px;
     list-style: none;
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 header .line {
-    margin-left: -4rem;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 header a {
@@ -48,9 +47,13 @@ header a {
 
 header .logo {
     display: flex;
+    margin-bottom: 5px;
     margin-right: 2rem;
-    margin-top: -5px;
-    gap: 20px;
+    gap: 15px;
+}
+
+header .logo img {
+    width: 110%;
 }
 
 header .logo small {
@@ -58,20 +61,16 @@ header .logo small {
 }
 
 #first-service .division {
-    width: 100%;
-    min-height: 50vh;
     display: flex;
-    margin-bottom: 0;
+    padding: 0 5rem;
 }
 
 #first-service .division .left-division {
     width: 40%;
-    margin-left: 5rem;
 }
 
 #first-service .division .right-division {
-    width: 70%;
-    margin-right: 5rem;
+    width: 60%;
     background: black;
     background-size: cover;
     color: white;
@@ -95,9 +94,7 @@ header .logo small {
 
 /*second-section*/
 #auto-section {
-    min-height: 100vh;
     background: #F5F5F5;
-    width: 100%;
     padding: 5rem 10rem;
 }
 
@@ -135,7 +132,6 @@ header .logo small {
 }
 
 .auto-division .auto-right {
-    height: 100%;
     display: flex;
     width: 45%;
 }
@@ -173,53 +169,56 @@ header .logo small {
 
 /*third-section*/
 #process-section {
-    min-height: 50vh;
-    width: 100%;
-    padding: 5rem 0;
+    padding: 5rem;
 }
 
 #process-section .main-process {
     display: flex;
-    padding: 0 10rem;
 }
 
 .main-process .left-process {
-    width: 40%;
-    margin-right: 5rem;
+    width: 48%;
+    /* margin-right: 5rem; */
 }
 
 .main-process .left-process h2 {
     font-size: 40px;
+    margin-bottom: 40px;
 }
 
 .main-process .left-process .image-process {
     display: flex;
     gap: 15px;
+    margin-bottom: 20px;
+}
+
+.main-process .left-process .image-process {
+    width: 100%;
+}
+
+.main-process .left-process .image-process img {
+    width: 110%;
 }
 
 .main-process .right-process {
-    width: 40%;
+    width: 48%;
 }
 
 .right-process .process-images img {
-    width: 49.5%;
+    width: 40%;
 }
 
 /*fourth-section*/
 #diagnose {
-    min-height: 50vh;
-    width: 100%;
-    padding-top: 2rem;
+    padding: 5rem 10rem;
 }
 
 #diagnose .diagnose-section {
     display: flex;
-    padding: 0 10rem;
-
 }
 
 .diagnose-section .left-diagnose {
-    width: 40%;
+    width: 48%;
     display: flex;
 }
 
@@ -228,9 +227,13 @@ header .logo small {
     gap: 10px;
 }
 
+.diagnose-section .left-diagnose .diagnose-images img {
+    width: 50%;
+}
+
 .diagnose-section .right-diagnose {
-    width: 40%;
-    margin-left: 10rem;
+    width: 48%;
+    margin-left: 5rem;
 }
 
 .diagnose-section .right-diagnose h2 {
@@ -255,15 +258,11 @@ header .logo small {
 }
 
 /*fifth-section*/
-#touch-section {
-    min-height: 50vh;
-    width: 100%;
-    margin: 0;
-}
 
 #touch-section .images-section {
     display: flex;
     width: 100%;
+    margin: 0;
 }
 
 #touch-section .images-section .first-image {
@@ -272,10 +271,9 @@ header .logo small {
 
 #touch-section .images-section .second-image {
     width: 36%;
-    height: 80%;
     background: #FF6433;
     color: white;
-    padding: 8rem 2rem;
+    padding: 7rem 2rem;
 }
 
 #touch-section .images-section .second-image h2 {
@@ -285,10 +283,9 @@ header .logo small {
 }
 
 #touch-section .images-section .second-image button {
-    margin-top: 70px;
+    margin-top: 20px;
     width: 35%;
-    height: 10%;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid black;
     border-radius: 10px;
     background: black;
@@ -301,25 +298,22 @@ header .logo small {
 
 /* sixth-section */
 #intouch-part {
-    background: black;
+    background: #1e1e1e;
     color: #F5F5F5;
-    min-height: 50vh;
-    width: 100%;
-    padding: 5rem 0;
+    padding: 2rem 10rem;
 }
 
 #intouch-part .main-intouch {
     display: flex;
-    width: 100%;
-    padding: 0 10rem;
+    /* padding: 2rem 10rem; */
 }
 
 .main-intouch .intouch-left {
-    width: 50%;
+    width: 48%;
 }
 
 .main-intouch .intouch-left h2 {
-    font-size: 40px;
+    font-size: 42px;
     margin-bottom: 9.7rem;
 }
 
@@ -334,7 +328,7 @@ header .logo small {
 }
 
 .main-intouch .intouch-right {
-    width: 50%;
+    width: 48%;
 }
 
 .main-intouch .intouch-right small {
@@ -349,8 +343,6 @@ header .logo small {
 }
 
 footer {
-    min-height: 20vh;
-    width: 100%;
     padding: 2rem 10rem;
     background: black;
     color: white;
@@ -421,7 +413,7 @@ footer .fin-last small {
     }
 
     header .fin {
-        width: 20%;
+        width: 60%;
         margin-bottom: 10px;
     }
 
@@ -444,44 +436,32 @@ footer .fin-last small {
     }
 
     #first-service .division {
-        width: 100%;
-        min-height: 60vh;
-        margin: 0;
-        margin-bottom: 30px;
-        padding: 10px 20px;
+        padding: 0 2rem 3rem;
     }
 
     #first-service .division .left-division {
-        margin-left: 0;
-    }
-
-    #first-service .division .left-division {
-        width: 65%;
-        height: 20%;
+        width: 45%;
     }
 
     #first-service .division .left-division img {
         width: 220%;
-        height: 100%;
     }
 
     #first-service .division .right-division {
-        width: 75%;
-        height: 100%;
-        padding: 3.25rem;
-        margin-right: 0;
+        width: 55%;
+    }
+
+    #first-service .division .right-division {
+        padding: 2rem;
     }
 
     .division .right-division button {
         width: 40%;
-        height: 50%;
         padding: 10px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     #auto-section {
-        min-height: 40vh;
-        width: 100%;
         padding: 2rem;
     }
 
@@ -490,7 +470,6 @@ footer .fin-last small {
     }
 
     .auto-division .auto-left {
-        min-height: 50vh;
         padding: 1rem;
     }
 
@@ -507,7 +486,6 @@ footer .fin-last small {
 
     .auto-right .auto-tools .auto-images {
         width: 100%;
-        height: 100%;
         padding: 20px 20px;
         gap: 2;
     }
@@ -523,30 +501,28 @@ footer .fin-last small {
     }
 
     #process-section {
-        width: 100%;
         padding: 4rem 3rem;
     }
 
     #process-section .main-process {
         padding: 0;
-        width: 100%;
     }
 
     #process-section .left-process {
-        width: 40%;
+        width: 45%;
     }
 
     .main-process .left-process h2 {
         font-size: 25px;
     }
-
+/* 
     .main-process .left-process {
         margin-right: 3rem;
-    }
+    } */
 
     
     .main-process .left-process .image-process img {
-        width: 110%;
+        width: 100%;
     }
 
     .main-process .left-process .image-process p {
@@ -554,7 +530,8 @@ footer .fin-last small {
     }
 
     .main-process .right-process {
-        width: 55%;
+        width: 45%;
+        padding-left: 20px;
     }
 
     .right-process .process-images {
@@ -563,40 +540,32 @@ footer .fin-last small {
     }
 
     .right-process .process-images img {
-        width: 50%;
-        height: 90%;
+        width: 60%;
     }
 
     #diagnose {
-        width: 100%;
-        min-height: 60vh;
+        padding: 2rem;
     }
 
     #diagnose .diagnose-section {
-        padding: 0 3rem;
-        min-height: 60vh;
         margin-bottom: 40px;
     }
 
-    .diagnose-section .left-diagnose {
+    #diagnose .diagnose-section .left-diagnose {
         width: 50%;
-        height: 50%;
-    }
-
-    .diagnose-section .left-diagnose .diagnose-images img {
-        width: 60%;
-        height: 60%;
     }
 
     .diagnose-section .left-diagnose .diagnose-images {
-        width: 90%;
-        height: 50%;
+        width: 100%;
+    }
+
+    .diagnose-section .left-diagnose .diagnose-images img {
+        width: 50%;
     }
 
     .diagnose-section .right-diagnose {
-        width: 40%;
-        height: 40%;
-        margin-left: 3.5rem;
+        width: 48%;
+        margin-left: 3rem;
     }
 
     .diagnose-section .right-diagnose h2 {
@@ -612,35 +581,20 @@ footer .fin-last small {
     .diagnose-section .right-diagnose button {
         margin-top: 10px;
         width: 50%;
-        height: 15%;
         padding: 12px;
-    }
-
-    #touch-section {
-        margin: 0;
-
-    }
-
-    #touch-section .images-section {
-        width: 100%;
-        min-height: 50vh;
-        margin: 0;
     }
 
     #touch-section .images-section .first-image {
         width: 25%;
-        height: 50%;
     }
 
     #touch-section .images-section .first-image img {
-        width: 275%;
-        height: 100%;
+        width: 250%;
     }
 
     #touch-section .images-section .second-image {
         width: 35%;
-        height: 50%;
-        padding: 1.7rem;
+        padding: 1.5rem;
     }
 
     #touch-section .images-section .second-image h2 {
@@ -659,30 +613,40 @@ footer .fin-last small {
     }
 
     #touch-section .images-section .third-image img {
-        width: 100%;
-        height: 98.5%;
+        width: 152%;
     }
 
     #intouch-part {
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
 
     #intouch-part .main-intouch {
         padding: 0;
     }
 
-    .main-intouch .intouch-left h2 {
-        font-size: 30px;
-        margin-bottom: 5rem;
-    }
-
-    .main-intouch .intouch-left .intouch-images img {
-        width: 15%;
-        height: 15%;
+    .main-intouch .intouch-left {
+        width: 48%;
     }
 
     .main-intouch .intouch-right {
-        margin-left: 5rem;
+        width: 48%;
+    }
+
+    #intouch-part .main-intouch .intouch-right {
+        margin-left: 1rem;
+    }
+
+    .main-intouch .intouch-left h2 {
+        font-size: 33px;
+        margin-bottom: 9rem;
+    }
+
+    .main-intouch .intouch-left .intouch-images img {
+        width: 20%;
+    }
+
+    .main-intouch .intouch-right p {
+        font-size: 22px;
     }
 
     .main-intouch .intouch-right p {
@@ -690,7 +654,7 @@ footer .fin-last small {
     }
 
     footer {
-        width: 100%;
+        /* width: 100%; */
         padding: 2rem;
     }
     
@@ -698,13 +662,27 @@ footer .fin-last small {
         width: 100%;
     }
 
+    footer .fin-first {
+        width: 15%;
+    }
+
     footer .fin-middle {
-        margin-top: 6px;
+        margin-top: 0;
+    }
+
+    footer .fin-middle a {
+        font-size: 16px;
     }
 
     footer .fin-last {
         margin-top: 6px;
-        margin-left: 10px;
+        margin-left: 0;
+    }
+
+    footer .fin-last small {
+        width: 30%;
+        font-size: 16px;
+        margin-left: 0;
     }
  
 
@@ -712,15 +690,11 @@ footer .fin-last small {
 }
 
 
-
-
-
-
 /* mobile-view */
 @media (max-width: 426px) {
 
     header .fin {
-        width: 30%;
+        width: 110%;
     }
     
     #first-service .division {
@@ -730,6 +704,7 @@ footer .fin-last small {
 
     #first-service .division .left-division {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     #first-service .division .left-division img {
@@ -738,8 +713,6 @@ footer .fin-last small {
 
     #first-service .division .right-division {
         width: 100%;
-        padding: 1rem;
-        margin: 0;
     }
 
     .division .right-division h2 {
@@ -800,6 +773,14 @@ footer .fin-last small {
         width: 100%;
     }
 
+    .main-process .right-process .process-images {
+        width: 100%;
+    }
+
+    .main-process .right-process .process-images img {
+        width: 50%;
+    }
+
     #diagnose .diagnose-section {
         width: 100%;
         padding: 2rem;
@@ -809,16 +790,29 @@ footer .fin-last small {
 
     .diagnose-section .left-diagnose {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .diagnose-section .left-diagnose .diagnose-images {
-        width: 80%;
+        width: 100%;
+    }
+
+    .diagnose-section .left-diagnose .diagnose-images img {
+        width: 100%;
     }
 
     .diagnose-section .right-diagnose {
         width: 100%;
         margin: 0;
+    }
+
+    .diagnose-section .right-diagnose h2 {
+        font-size: 23px;
+    }
+
+    .diagnose-section .right-diagnose p {
+        font-size: 17px;
+        margin-bottom: 10px;
     }
 
     #touch-section .images-section {
@@ -846,6 +840,10 @@ footer .fin-last small {
         width: 100%;
     }
 
+    #touch-section .images-section .third-image img {
+        width: 100%;
+    }
+
     #intouch-part .main-intouch {
         width: 100%;
         flex-direction: column;
@@ -857,7 +855,7 @@ footer .fin-last small {
     }
 
     .main-intouch .intouch-left h2 {
-        font-size: 25px;
+        font-size: 28px;
         margin-bottom: 3rem;
     }
 
@@ -871,6 +869,7 @@ footer .fin-last small {
 
     .main-intouch .intouch-right {
         margin-left: 0;
+        width: 100%;
     }
 
     .main-intouch .intouch-right p {
@@ -878,7 +877,7 @@ footer .fin-last small {
     }
 
     footer {
-        padding: 0 2rem 2rem;
+        padding: 2rem 2rem;
     }
 
     footer .footer-section {
