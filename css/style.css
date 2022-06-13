@@ -407,31 +407,27 @@ button {
 
 #brand-section {
     background: #fafafa;
-    padding: 5rem 12rem 5rem 6rem;
 }
 
-#brands-section .brand-tools {
-    flex-direction: column;
+#brand-section .brand-logo {
+    display: flex;
     flex-wrap: wrap;
-}
-
-.brand-tools .brand-logo {
-    display: flex;
-}
-
-.brand-tools .brands-logo {
-    display: flex;
+    justify-content: space-between;
 }
 
 #brand-section h2 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 10px;
+    padding: 40px 0;
 }
 
-#brand-section .brand-logo {
-    margin-top: 50px;
+#brand-section .brand-logo .brands-images {
+    width: 17%;
+}
+
+#brand-section .brand-tools .brand-logo img {
+    width: 100%;
 }
 
 /*customer-part*/
@@ -1067,8 +1063,13 @@ footer .footer-copy {
         font-size: 30px;
     }
 
-    #brand-section {
-        padding: 1rem 5rem;     
+    #brand-section h2 {
+        font-size: 30px;
+        padding: 25px 0;
+    }
+
+    /* #brand-section {
+        padding: 2rem;
     }
 
     #brand-section h2 {
@@ -1085,17 +1086,21 @@ footer .footer-copy {
         margin-top: 10px;
     }
 
-    #brand-section .brand-logo {
-        width: 100%;
+    #brand-section .brand-tools .brand-logo img {
+        width: 50%;
     }
 
+    #brand-section .brand-logo {
+        width: 25%;
+    }
+ 
     .brand-logo img {
         width: 100%;
     }
 
-    #brand-section .brands-logo img  {
-        width: 100%;
-    }
+    #brand-section .brands-logo {
+        width: 20%;
+    } */
     
     /* seventh-section */
     #customer-part {
@@ -1562,15 +1567,16 @@ footer .footer-copy {
         font-size: 13px;
     }
 
-    #brand-section .brand-logo {
-        margin-left: 0;
-    }
-
     .brand-logo img {
         width: 120%;
     }
 
-    #brand-section .brands-logo img {
+    #brand-section h2 {
+        font-size: 25px;
+        padding: 25px 0;
+    }
+
+    #brand-section .brands-images img {
         width: 120%;
     }
 
